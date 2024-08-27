@@ -100,10 +100,6 @@ header{
         display: flex;
         align-items: center;
 
-        & img{
-            width: 50px;
-        }
-
         & p{
             margin-left: .7rem;
             font-size: 1.5rem;
