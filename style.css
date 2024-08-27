@@ -287,3 +287,48 @@ article.description{
         }
     }
 }
+
+/*-----------------FOOTER-----------------*/
+footer{
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: #e8e8e8;
+
+    & .container{
+        display: flex;
+        justify-content: space-around;
+
+        padding: 1.8rem 0;
+
+        & .left_part{
+            
+        }
+
+        & .right_part{
+            margin: auto 0;
+            & ul{
+                display: flex;
+                gap: 2rem;
+
+                & li{
+                    width: 20px;
+                    height: 20px;
+
+                    & img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    & p.rights {
+        margin: .6rem auto;
+        text-align: center;
+    }
+}
