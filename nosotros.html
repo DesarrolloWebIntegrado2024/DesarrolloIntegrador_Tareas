@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+
+        <div class="contenedor header header--notIndex">
+            <div class="logo">
+                <a href="/index.html"> <img src="./IMG/logo.svg" alt="Logo de amistad" class="logo"> </a>
+                <p>Amicis</p>
+            </div>
+
+            <nav class="navegacion">
+                <ul>
+                    <li><a href="/nosotros.html" class="navegacion__enlace">Nosotros</a></li>
+                    <li><a href="/proyectos.html" class="navegacion__enlace">Proyectos</a></li>
+                    <li><a href="/testimonios.html" class="navegacion__enlace">Testimonios</a></li>
+                    <li><a href="/contacto.html" class="navegacion__enlace">Contactanos</a></li>
+                </ul>
+            </nav>
+
+            <div class="callToAction">
+                <ul>
+                    <li><a href="/crear-cuenta.html" class="navegacion__enlace boton">Unirse</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main class="informacion__nosotros contenedor-m">
+        <h1>Sobre Nosotros</h1>
+        <div class="promocion__contacto">
+            <picture>
+                <source srcset="/IMG/img5.avif" type="image/avif">
+                <source srcset="/IMG/img5.webp" type="image/webp">
+                <img src="/IMG/img5.jpg" alt="Descripción de la imagen">
+            </picture>
+        </div>
+        <p>En AMICIS, creemos en el poder del voluntariado para transformar vidas y comunidades. Nos dedicamos a ofrecer oportunidades para que personas apasionadas puedan contribuir a causas importantes, aprendiendo y creciendo junto a nuestras iniciativas. A través de nuestros proyectos, buscamos generar un impacto positivo y duradero, tanto para los beneficiarios como para nuestros voluntarios. Únete a nosotros y sé parte de un movimiento que hace la diferencia.</p>
+    </main>
+
+    <section class="seccion contenedor-m">
+        <div class="nosotros">
+            <h1>Nuestros principios</h1>
+            <div class="nosotros__contenido">
+                <div class="nosotros__card">
+                    <img src="/IMG/ayuda.svg" alt="ayuda">
+                    <h2>Solidaridad</h2>
+                    <p class="nosotros__texto">Estamos aquí para ofrecer ayuda a quienes más lo necesitan.</p>
+                </div>
+            
+                <div class="nosotros__card">
+                    <img src="/IMG/amr.svg" alt="amor">
+                    <h2>Amabilidad</h2>
+                    <p class="nosotros__texto">Nuestro compromiso es brindar amor y cariño a todos los necesitados.</p>
+                </div>
+            
+                <div class="nosotros__card">
+                    <img src="/IMG/planeta.svg" alt="planeta">
+                    <h2>Empatia</h2>
+                    <p class="nosotros__texto">Llegamos a todos los rincones para apoyar a quienes más lo requieren.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <div class="content">
+            <div class="top">
+                <div class="logo-details">
+                    <i class="fab fa-slack"></i>
+                    <span class="logo_name">AMICIS</span>
+                </div>
+                <div class="media-icons">
+                    <a href="#"><img src="IMG/facebook.svg" alt="Facebook"></a>
+                    <a href="#"><img src="IMG/instagram.svg" alt="Instagram"></a>
+                    <a href="#"><img src="IMG/whatsapp.svg" alt="WhatsApp"></a>
+                    <a href="#"><img src="IMG/twitter.svg" alt="Twitter"></a>
+                    <a href="#"><img src="IMG/telegram.svg" alt="Telegram"></a>
+                </div>
+                
+            </div>
+            <div class="link-boxes">
+                <nav class="navegacion">
+                    <ul>
+                        <li><a href="/nosotros.html" class="navegacion__enlace">Nosotros</a></li>
+                        <li><a href="/proyectos.html" class="navegacion__enlace">Proyectos</a></li>
+                        <li><a href="/testimonios.html" class="navegacion__enlace">Testimonios</a></li>
+                        <li><a href="/contacto.html" class="navegacion__enlace">Contacto</a></li>
+                    </ul>
+                </nav>
+                <ul class="box input-box">
+                    <p class="link_name">Suscribete para notifiaciones</p>
+                    <li><input type="text" placeholder="Enter your email"></li>
+                    <li><input type="button" value="Subscribe" class="boton--sub"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-details">
+            <div class="bottom_text">
+                <span class="copyright_text">Copyright © 2021 <a href="#">CodingLab.</a>All rights reserved</span>
+                <span class="policy_terms">
+                    <a href="#">Privacy policy</a>
+                    <a href="#">Terms & condition</a>
+                </span>
+            </div>
+        </div>
+    </footer>
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
