@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+
+        <div class="contenedor header header--notIndex">
+            <div class="logo">
+                <a href="/index.html"> <img src="./IMG/logo.svg" alt="Logo de amistad" class="logo"> </a>
+                    <p>Amicis</p>
+                </div>
+
+            <nav class="navegacion">
+                <ul>
+                    <li><a href="/nosotros.html" class="navegacion__enlace">Nosotros</a></li>
+                    <li><a href="/proyectos.html" class="navegacion__enlace">Proyectos</a></li>
+                    <li><a href="/testimonios.html" class="navegacion__enlace">Testimonios</a></li>
+                    <li><a href="/contacto.html" class="navegacion__enlace">Contactanos</a></li>
+                </ul>
+            </nav>
+
+            <div class="callToAction">
+                <ul>
+                    <li><a href="/crear-cuenta.html" class="navegacion__enlace boton">Unirse</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main class="informacion__contacto main contenedor-m">
+        <h1>¿Deseas obtener información extra sobre AMICIS?</h1>
+        <p>Estamos emocionados de conocer a personas apasionadas que quieran hacer una diferencia. Por favor, completa el siguiente formulario para que podamos conocerte mejor y discutir las oportunidades disponibles.</p>
+    </main>
+
+    <div class="promocion__contacto">
+        <picture>
+            <source srcset="/IMG/img5.avif" type="image/avif">
+            <source srcset="/IMG/img5.webp" type="image/webp">
+            <img src="/IMG/img5.jpg" alt="Descripción de la imagen">
+        </picture>
+    </div>
+
+    <section class="seccion contenedor-sm">
+        <form action="formulario" method="POST" class="formulario">
+            <h2>Llena el formulario de contacto para recibir tu petición</h2>
+            
+            <div class="campo">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre completo" required>
+            </div>
+    
+            <div class="campo">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" name="telefono" id="telefono" placeholder="Tu teléfono" pattern="[0-9]{10}" required>
+            </div>
+    
+            <div class="campo">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Tu email" required>
+            </div>
+            
+            <div class="campo">
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" id="mensaje" placeholder="Tu mensaje" rows="5" required></textarea>
+            </div>
+            
+            <div class="campo">
+                <label for="asunto">Asunto</label>
+                <select name="asunto" id="asunto" required>
+                    <option value="">Selecciona un asunto</option>
+                    <option value="consulta">Consulta</option>
+                    <option value="soporte">Soporte</option>
+                    <option value="sugerencia">Sugerencia</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </div>
+            
+            <div class="accion">
+                <input type="submit" value="Enviar" class="boton">
+            </div>
+        </form>
+    </section>
+    
+
+    <footer>
+        <div class="content">
+            <div class="top">
+                <div class="logo-details">
+                    <i class="fab fa-slack"></i>
+                    <span class="logo_name">AMICIS</span>
+                </div>
+                <div class="media-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="link-boxes">
+                <nav class="navegacion">
+                    <ul>
+                        <li><a href="/nosotros.html" class="navegacion__enlace">Nosotros</a></li>
+                        <li><a href="/proyectos.html" class="navegacion__enlace">Proyectos</a></li>
+                        <li><a href="/testimonios.html" class="navegacion__enlace">Testimonios</a></li>
+                        <li><a href="/contacto.html" class="navegacion__enlace">Contacto</a></li>
+                    </ul>
+                </nav>
+                <ul class="box input-box">
+                    <p class="link_name">Suscribete para notifiaciones</p>
+                    <li><input type="text" placeholder="Enter your email"></li>
+                    <li><input type="button" value="Subscribe" class="boton--sub"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-details">
+            <div class="bottom_text">
+                <span class="copyright_text">Copyright © 2021 <a href="#">CodingLab.</a>All rights reserved</span>
+                <span class="policy_terms">
+                    <a href="#">Privacy policy</a>
+                    <a href="#">Terms & condition</a>
+                </span>
+            </div>
+        </div>
+    </footer>
+    <script src="/js/app.js"></script>
+</body>
+
+</html>

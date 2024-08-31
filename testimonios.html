@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+
+        <div class="contenedor header header--notIndex">
+            <div class="logo">
+                <a href="/index.html"> <img src="./IMG/logo.svg" alt="Logo de amistad" class="logo"> </a>
+                <p>Amicis</p>
+            </div>
+
+            <nav class="navegacion">
+                <ul>
+                    <li><a href="/nosotros.html" class="navegacion__enlace">Nosotros</a></li>
+                    <li><a href="/proyectos.html" class="navegacion__enlace">Proyectos</a></li>
+                    <li><a href="/testimonios.html" class="navegacion__enlace">Testimonios</a></li>
+                    <li><a href="/contacto.html" class="navegacion__enlace">Contactanos</a></li>
+                </ul>
+            </nav>
+
+            <div class="callToAction">
+                <ul>
+                    <li><a href="/crear-cuenta.html" class="navegacion__enlace navegacion__enlace--call boton">Unirse</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main class="informacion__testimonioAngBlog contenedor-m">
+        <h1>¿Tienes dudas sobre el voluntariado?</h1>
+        <p>¡No te preocupes! Sabemos que tomar la decisión de unirse a un equipo de voluntariado es importante. En nuestro blog, encontrarás historias inspiradoras, actualizaciones sobre nuestros proyectos y detalles sobre cómo puedes contribuir. Explora nuestras publicaciones para conocer mejor nuestro trabajo y descubrir cómo puedes marcar una diferencia.</p>
+    </main>
+    
+
+    <div class="contenedor-m seccion">
+        <section class="testimonialesAndblog__blog">
+            <h3>Historias recientes</h3>
+            <article class="testimonialesAndblog__entrada">
+                <div class="testimonialesAndblog__imagen">
+                    <img loading="lazy" src="/IMG/card1.jpg">
+                </div>
+                <div class="testimonialesAndblog__text">
+                    <h4>Historia Post viaje</h4>
+                    <a href="/blog">
+                        <p class="texto-fluido__autor">Escrito el: <span>20/10/2024</span> por: <span>Juan Pablo</span></p>
+                        <p class="texto-fluido__blog">Definitivamente una grata experiencia haber colaborado con este gran grupo de trabajo, mucha
+                            suerte!</p>
+                    </a>
+                </div>
+            </article> <!--arituclo 1-->
+            <article class="testimonialesAndblog__entrada">
+                <div class="testimonialesAndblog__imagen">
+                    <img loading="lazy" src="/IMG/card2.jpg">
+                </div>
+                <div class="testimonialesAndblog__text">
+                    <h4>Trabajo de voluntarios</h4>
+                    <a href="/blog">
+                        <p class="texto-fluido__autor">Escrito el: <span>20/10/2024</span> por: <span>Marco Gutierres</span></p>
+                        <p class="texto-fluido__blog">Probablemente el mejor equipo de trabajo voluntario que tuve, una experiencia muy bonita en
+                            todo sentido</p>
+                    </a>
+                </div>
+            </article> <!--arituclo 1-->
+        </section>
+    </div>
+
+    <footer>
+        <div class="content">
+            <div class="top">
+                <div class="logo-details">
+                    <i class="fab fa-slack"></i>
+                    <span class="logo_name">AMICIS</span>
+                </div>
+                <div class="media-icons">
+                    <a href="#"><img src="IMG/facebook.svg" alt="Facebook"></a>
+                    <a href="#"><img src="IMG/instagram.svg" alt="Instagram"></a>
+                    <a href="#"><img src="IMG/whatsapp.svg" alt="WhatsApp"></a>
+                    <a href="#"><img src="IMG/twitter.svg" alt="Twitter"></a>
+                    <a href="#"><img src="IMG/telegram.svg" alt="Telegram"></a>
+                </div>
+                
+            </div>
+            <div class="link-boxes">
+                <nav class="navegacion">
+                    <ul>
+                        <li><a href="/nosotros.html" class="navegacion__enlace">Nosotros</a></li>
+                        <li><a href="/proyectos.html" class="navegacion__enlace">Proyectos</a></li>
+                        <li><a href="/testimonios.html" class="navegacion__enlace">Testimonios</a></li>
+                        <li><a href="/contacto.html" class="navegacion__enlace">Contacto</a></li>
+                    </ul>
+                </nav>
+                <ul class="box input-box">
+                    <p class="link_name">Suscribete para notifiaciones</p>
+                    <li><input type="text" placeholder="Enter your email"></li>
+                    <li><input type="button" value="Subscribe" class="boton--sub"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-details">
+            <div class="bottom_text">
+                <span class="copyright_text">Copyright © 2021 <a href="#">CodingLab.</a>All rights reserved</span>
+                <span class="policy_terms">
+                    <a href="#">Privacy policy</a>
+                    <a href="#">Terms & condition</a>
+                </span>
+            </div>
+        </div>
+    </footer>
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
